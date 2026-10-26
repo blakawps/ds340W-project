@@ -1,0 +1,12 @@
+{
+  "dataset_rows": 5437,
+  "feature_count": 14,
+  "training_rows": 4349,
+  "testing_rows": 1088,
+  "positive_cases_total": 344,
+  "positive_cases_test": 69,
+  "train_test_split": "80/20 stratified",
+  "random_seed": 42,
+  "preprocessing": "Impute and standardize numeric features; one-hot encode categorical features; fit preprocessors on training set only",
+  "notes": "Baseline evaluation only. Class weights balanced for LR, SVM, Decision Tree, Random Forest. No SMOTE; no tuning; no LIME/SHAP; no neural network."
+}
